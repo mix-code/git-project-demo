@@ -26,5 +26,9 @@ app.get('/login', (req, res) => {
     res.send('Login API');
 });
 
+app.get('/profile', (req, res) => {
+    res.send('Profile API');
+});
+
 app.listen(3000, () => console.log('Server Is Live On Port 3000'));
 
