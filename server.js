@@ -30,5 +30,9 @@ app.get('/profile', (req, res) => {
     res.send('Profile API');
 });
 
+app.get('/profile/update-password', (req, res) => {
+    res.send('Profile Update Password API');
+});
+
 app.listen(3000, () => console.log('Server Is Live On Port 3000'));
 
