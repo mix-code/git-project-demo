@@ -11,7 +11,7 @@ app.get('/about-us', (req, res) => {
 });
 
 app.get('/contact-us', (req, res) => {
-    res.send('contact API');
+    res.send('Contact Us API');
 });
 
 app.listen(3000, () => console.log('Server Is Live On Port 3000'));
