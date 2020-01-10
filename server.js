@@ -18,5 +18,9 @@ app.get('/fqa', (req, res) => {
     res.send('FQA API');
 });
 
+app.get('/feedback', (req, res) => {
+    res.send('Feedback API');
+});
+
 app.listen(3000, () => console.log('Server Is Live On Port 3000'));
 
